@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\masglobal.ApplicationDTO\masglobal.ApplicationDTO.csproj" />
+    <ProjectReference Include="..\masglobal.Domain.Interface\masglobal.Domain.Interface.csproj" />
+    <ProjectReference Include="..\masglobal.InfraStructure.Interface\masglobal.InfraStructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

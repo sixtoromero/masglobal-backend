@@ -1,0 +1,12 @@
+D:\masglobal\masglobal.Domain.Interface\bin\Debug\netcoreapp2.1\masglobal.Domain.Interface.deps.json
+D:\masglobal\masglobal.Domain.Interface\bin\Debug\netcoreapp2.1\masglobal.Domain.Interface.dll
+D:\masglobal\masglobal.Domain.Interface\bin\Debug\netcoreapp2.1\masglobal.Domain.Interface.pdb
+D:\masglobal\masglobal.Domain.Interface\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.Domain.Interface\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.csprojAssemblyReference.cache
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.csproj.CoreCompileInputs.cache
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.AssemblyInfoInputs.cache
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.AssemblyInfo.cs
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.csproj.CopyComplete
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.dll
+D:\masglobal\masglobal.Domain.Interface\obj\Debug\netcoreapp2.1\masglobal.Domain.Interface.pdb

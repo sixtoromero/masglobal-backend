@@ -1,0 +1,11 @@
+D:\masglobal\masglobal.FactoryMethod\bin\Debug\netcoreapp3.1\masglobal.FactoryMethod.deps.json
+D:\masglobal\masglobal.FactoryMethod\bin\Debug\netcoreapp3.1\masglobal.FactoryMethod.dll
+D:\masglobal\masglobal.FactoryMethod\bin\Debug\netcoreapp3.1\masglobal.FactoryMethod.pdb
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.AssemblyInfoInputs.cache
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.AssemblyInfo.cs
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.dll
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.pdb
+D:\masglobal\masglobal.FactoryMethod\bin\Debug\netcoreapp3.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.FactoryMethod\bin\Debug\netcoreapp3.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.csprojAssemblyReference.cache
+D:\masglobal\masglobal.FactoryMethod\obj\Debug\netcoreapp3.1\masglobal.FactoryMethod.csproj.CopyComplete

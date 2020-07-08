@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\masglobal.Application.Interface\masglobal.Application.Interface.csproj" />
+    <ProjectReference Include="..\masglobal.Application.Main\masglobal.Application.Main.csproj" />
+    <ProjectReference Include="..\masglobal.ApplicationDTO\masglobal.ApplicationDTO.csproj" />
+    <ProjectReference Include="..\masglobal.Domain.Core\masglobal.Domain.Core.csproj" />
+    <ProjectReference Include="..\masglobal.Domain.Interface\masglobal.Domain.Interface.csproj" />
+    <ProjectReference Include="..\masglobal.FactoryMethod\masglobal.FactoryMethod.csproj" />
+    <ProjectReference Include="..\masglobal.InfraStructure.Repository\masglobal.InfraStructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

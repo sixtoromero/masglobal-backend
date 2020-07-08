@@ -1,0 +1,14 @@
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.deps.json
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.dll
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.pdb
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.dll
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.InfraStructure.Repository\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.pdb
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.csprojAssemblyReference.cache
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.csproj.CoreCompileInputs.cache
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.AssemblyInfoInputs.cache
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.AssemblyInfo.cs
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.csproj.CopyComplete
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.dll
+D:\masglobal\masglobal.InfraStructure.Repository\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Repository.pdb

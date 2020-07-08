@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "masglobal.Application.Main/1.0.0": {
+        "dependencies": {
+          "masglobal.ApplicationDTO": "1.0.0"
+        },
+        "runtime": {
+          "masglobal.Application.Main.dll": {}
+        }
+      },
+      "masglobal.ApplicationDTO/1.0.0": {
+        "runtime": {
+          "masglobal.ApplicationDTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "masglobal.Application.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "masglobal.ApplicationDTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

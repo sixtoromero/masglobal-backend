@@ -1,0 +1,9 @@
+D:\masglobal\masglobal.ApplicationDTO\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.deps.json
+D:\masglobal\masglobal.ApplicationDTO\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.ApplicationDTO\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.csproj.CoreCompileInputs.cache
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.AssemblyInfoInputs.cache
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.AssemblyInfo.cs
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.ApplicationDTO\obj\Debug\netcoreapp2.1\masglobal.ApplicationDTO.csprojAssemblyReference.cache

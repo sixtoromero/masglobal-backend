@@ -1,0 +1,12 @@
+D:\masglobal\masglobal.InfraStructure.Interface\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.deps.json
+D:\masglobal\masglobal.InfraStructure.Interface\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.dll
+D:\masglobal\masglobal.InfraStructure.Interface\bin\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.pdb
+D:\masglobal\masglobal.InfraStructure.Interface\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.dll
+D:\masglobal\masglobal.InfraStructure.Interface\bin\Debug\netcoreapp2.1\masglobal.ApplicationDTO.pdb
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.csprojAssemblyReference.cache
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.csproj.CoreCompileInputs.cache
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.AssemblyInfoInputs.cache
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.AssemblyInfo.cs
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.csproj.CopyComplete
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.dll
+D:\masglobal\masglobal.InfraStructure.Interface\obj\Debug\netcoreapp2.1\masglobal.InfraStructure.Interface.pdb
