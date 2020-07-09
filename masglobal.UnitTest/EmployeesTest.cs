@@ -1,9 +1,14 @@
+using masglobal.Application.Interface;
 using masglobal.Application.Main;
 using masglobal.ApplicationDTO;
 using masglobal.Domain.Core;
+using masglobal.Domain.Interface;
 using masglobal.InfraStructure.Interface;
 using masglobal.InfraStructure.Repository;
+using masglobal.Services.WebAPIRest.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using System;
 using System.Collections.Generic;
 
 namespace masglobal.UnitTest
@@ -11,32 +16,26 @@ namespace masglobal.UnitTest
     [TestClass]
     public class EmployeesTest
     {
-        //private readonly IEmployeesRepository _repository;
-
-        //public EmployeesTest(IEmployeesRepository repository)
-        //{
-        //    _repository = repository;
-        //}
-
         [TestMethod]
         public void TestGetEmployees()
         {
-            EmployeesDomain _domain = new EmployeesDomain(null);
             //Preparación
-
-            EmployeesApplication employees = new EmployeesApplication(_domain);
+            int id = 1;
+            string typecontract = "All";
             var response = new Response<IEnumerable<EmployeesDTO>>();
-            try
-            {
-                response = employees.GetEmployees(string.Empty);
-            }
-            catch (System.Exception)
-            {
-                throw;
-            }
 
-            //Verificación 
-            Assert.AreEqual(true, response.Data != null);
+            var mock = new Mock<IEmployeesApplication>();
+            mock.Setup(x => x.GetEmployees(id, typecontract)).Returns(response);
+
+            var employeesControoler = new EmployeesController(mock.Object);
+
+            //Prueba
+            var result = employeesControoler.GetEmployees(id, typecontract);
+
+            //Verificación
+            Assert.IsNotNull(result);
+            Assert.AreEqual(result, response.Data);
+
         }
     }
 }

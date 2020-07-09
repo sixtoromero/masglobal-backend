@@ -7,6 +7,6 @@ namespace masglobal.InfraStructure.Interface
 {
     public interface IEmployeesRepository
     {
-        IEnumerable<EmployeesDTO> GetEmployees(string Id);
+        IEnumerable<EmployeesDTO> GetEmployees(int Id, string TypeContract);
     }
 }

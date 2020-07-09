@@ -8,11 +8,11 @@ namespace masglobal.FactoryMethod
 {
     public class Creator
     {
-        private string _Id;
+        private int _Id;
         private string _TypeContract;
         private IEmployeesApplication _application;
 
-        public Creator(string Id, string TypeContract, IEmployeesApplication application)
+        public Creator(int Id, string TypeContract, IEmployeesApplication application)
         {
             _Id = Id;
             _TypeContract = TypeContract;
@@ -26,13 +26,13 @@ namespace masglobal.FactoryMethod
             switch (_TypeContract)
             {
                 case "HourlySalaryEmployee":
-                    factory = new HourlySalaryEmployeesAnnualFactory(_Id, _application);
+                    factory = new HourlySalaryEmployeesAnnualFactory(_Id, _TypeContract, _application);
                     break;
                 case "MonthlySalaryEmployee":
-                    factory = new MonthlySalaryEmployeesAnnualFactory(_Id, _application);
+                    factory = new MonthlySalaryEmployeesAnnualFactory(_Id, _TypeContract, _application);
                     break;
                 default:
-                    factory = null;
+                    factory = new SalaryEmployeesAnnualFactory(_Id, _application);
                     break;
             }
 

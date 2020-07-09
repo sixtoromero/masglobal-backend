@@ -16,12 +16,12 @@ namespace masglobal.Application.Main
             _domain = domain;
         }
 
-        public Response<IEnumerable<EmployeesDTO>> GetEmployees(string Id)
+        public Response<IEnumerable<EmployeesDTO>> GetEmployees(int Id, string TypeContract)
         {
             var response = new Response<IEnumerable<EmployeesDTO>>();
             try
             {
-                var Employees = _domain.GetEmployees(Id);
+                var Employees = _domain.GetEmployees(Id, TypeContract);
                 if (Employees != null)
                 {
                     response.Data = Employees;

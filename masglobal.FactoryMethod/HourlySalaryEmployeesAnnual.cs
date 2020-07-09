@@ -8,12 +8,14 @@ namespace masglobal.FactoryMethod
 {
     class HourlySalaryEmployeesAnnual : CalculatedAnnualSalary
     {
-        private string _Id;
+        private int _Id;
+        private string _TypeContract;
         private readonly IEmployeesApplication _application;
 
-        public HourlySalaryEmployeesAnnual(string Id, IEmployeesApplication application)
+        public HourlySalaryEmployeesAnnual(int Id, string TypeContract, IEmployeesApplication application)
         {
             _Id = Id;
+            _TypeContract = TypeContract;
             _application = application;
         }
 
@@ -21,7 +23,7 @@ namespace masglobal.FactoryMethod
         {
             Response<IEnumerable<EmployeesDTO>> result = null;
 
-            result = _application.GetEmployees(_Id);
+            result = _application.GetEmployees(_Id, _TypeContract);
 
             foreach (var item in result.Data)
             {

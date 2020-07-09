@@ -7,6 +7,6 @@ namespace masglobal.Domain.Interface
 {
     public interface IEmployeesDomain
     {
-        IEnumerable<EmployeesDTO> GetEmployees(string Id);
+        IEnumerable<EmployeesDTO> GetEmployees(int Id, string TypeContract);
     }
 }

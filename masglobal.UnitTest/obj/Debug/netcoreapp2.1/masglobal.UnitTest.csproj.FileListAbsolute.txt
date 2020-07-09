@@ -27,3 +27,7 @@ D:\masglobal\masglobal.UnitTest\bin\Debug\netcoreapp2.1\masglobal.InfraStructure
 D:\masglobal\masglobal.UnitTest\obj\Debug\netcoreapp2.1\masglobal.UnitTest.csproj.CopyComplete
 D:\masglobal\masglobal.UnitTest\obj\Debug\netcoreapp2.1\masglobal.UnitTest.dll
 D:\masglobal\masglobal.UnitTest\obj\Debug\netcoreapp2.1\masglobal.UnitTest.pdb
+D:\masglobal\masglobal.UnitTest\bin\Debug\netcoreapp2.1\masglobal.FactoryMethod.dll
+D:\masglobal\masglobal.UnitTest\bin\Debug\netcoreapp2.1\masglobal.FactoryMethod.pdb
+D:\masglobal\masglobal.UnitTest\bin\Debug\netcoreapp2.1\masglobal.Services.WebAPIRest.dll
+D:\masglobal\masglobal.UnitTest\bin\Debug\netcoreapp2.1\masglobal.Services.WebAPIRest.pdb

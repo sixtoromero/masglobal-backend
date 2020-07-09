@@ -13,7 +13,7 @@ namespace masglobal.InfraStructure.Repository
     public class EmployeesRepository : IEmployeesRepository
     {
 
-        public IEnumerable<EmployeesDTO> GetEmployees(string Id)
+        public IEnumerable<EmployeesDTO> GetEmployees(int Id, string TypeContract)
         {
             IEnumerable<EmployeesDTO> response;
             try
@@ -40,7 +40,14 @@ namespace masglobal.InfraStructure.Repository
                 #endregion
 
                 var result = JsonConvert.DeserializeObject<IEnumerable<EmployeesDTO>>(Result);
-                response = Id == string.Empty ? result : result.Where(x => x.id.Equals(int.Parse(Id)));
+                if (TypeContract == "All")
+                {
+                    response = Id == 0 ? result : result.Where(x => x.id.Equals(Id));
+                }
+                else
+                {
+                    response = Id == 0 ? result.Where(x => x.contractTypeName.Equals(TypeContract)) : result.Where(x => x.id.Equals(Id) && x.contractTypeName.Equals(TypeContract));
+                }
                 return response;
             }
             catch (System.Exception)

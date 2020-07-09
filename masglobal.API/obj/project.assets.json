@@ -2751,7 +2751,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -4614,116 +4614,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
-        }
-      },
-      "masglobal.Application.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "masglobal.ApplicationDTO": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.Application.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.Application.Interface.dll": {}
-        }
-      },
-      "masglobal.Application.Main/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "masglobal.Application.Interface": "1.0.0",
-          "masglobal.ApplicationDTO": "1.0.0",
-          "masglobal.Domain.Core": "1.0.0",
-          "masglobal.InfraStructure.Repository": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.Application.Main.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.Application.Main.dll": {}
-        }
-      },
-      "masglobal.ApplicationDTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/masglobal.ApplicationDTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.ApplicationDTO.dll": {}
-        }
-      },
-      "masglobal.Domain.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "masglobal.ApplicationDTO": "1.0.0",
-          "masglobal.Domain.Interface": "1.0.0",
-          "masglobal.InfraStructure.Interface": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.Domain.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.Domain.Core.dll": {}
-        }
-      },
-      "masglobal.Domain.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "masglobal.ApplicationDTO": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.Domain.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.Domain.Interface.dll": {}
-        }
-      },
-      "masglobal.FactoryMethod/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "masglobal.Application.Main": "1.0.0",
-          "masglobal.ApplicationDTO": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.FactoryMethod.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.FactoryMethod.dll": {}
-        }
-      },
-      "masglobal.InfraStructure.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "masglobal.ApplicationDTO": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.InfraStructure.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.InfraStructure.Interface.dll": {}
-        }
-      },
-      "masglobal.InfraStructure.Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "masglobal.ApplicationDTO": "1.0.0",
-          "masglobal.InfraStructure.Interface": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/masglobal.InfraStructure.Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/masglobal.InfraStructure.Repository.dll": {}
         }
       }
     }
@@ -7761,10 +7651,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7787,9 +7677,8 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -12722,55 +12611,15 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "masglobal.Application.Interface/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.Application.Interface/masglobal.Application.Interface.csproj",
-      "msbuildProject": "../masglobal.Application.Interface/masglobal.Application.Interface.csproj"
-    },
-    "masglobal.Application.Main/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.Application.Main/masglobal.Application.Main.csproj",
-      "msbuildProject": "../masglobal.Application.Main/masglobal.Application.Main.csproj"
-    },
-    "masglobal.ApplicationDTO/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.ApplicationDTO/masglobal.ApplicationDTO.csproj",
-      "msbuildProject": "../masglobal.ApplicationDTO/masglobal.ApplicationDTO.csproj"
-    },
-    "masglobal.Domain.Core/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.Domain.Core/masglobal.Domain.Core.csproj",
-      "msbuildProject": "../masglobal.Domain.Core/masglobal.Domain.Core.csproj"
-    },
-    "masglobal.Domain.Interface/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.Domain.Interface/masglobal.Domain.Interface.csproj",
-      "msbuildProject": "../masglobal.Domain.Interface/masglobal.Domain.Interface.csproj"
-    },
-    "masglobal.FactoryMethod/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.FactoryMethod/masglobal.FactoryMethod.csproj",
-      "msbuildProject": "../masglobal.FactoryMethod/masglobal.FactoryMethod.csproj"
-    },
-    "masglobal.InfraStructure.Interface/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.InfraStructure.Interface/masglobal.InfraStructure.Interface.csproj",
-      "msbuildProject": "../masglobal.InfraStructure.Interface/masglobal.InfraStructure.Interface.csproj"
-    },
-    "masglobal.InfraStructure.Repository/1.0.0": {
-      "type": "project",
-      "path": "../masglobal.InfraStructure.Repository/masglobal.InfraStructure.Repository.csproj",
-      "msbuildProject": "../masglobal.InfraStructure.Repository/masglobal.InfraStructure.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "D:\\masglobal\\masglobal.FactoryMethod\\masglobal.FactoryMethod.csproj",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
-      "masglobal.FactoryMethod >= 1.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
     ]
   },
   "packageFolders": {
@@ -12849,5 +12698,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"D:\\masglobal\\masglobal.FactoryMethod\\masglobal.FactoryMethod.csproj\". En Visual Studio, esto puede deberse a que el proyecto no se ha descargado o no forma parte de la solución actual. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "D:\\masglobal\\masglobal.FactoryMethod\\masglobal.FactoryMethod.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

@@ -23,7 +23,7 @@ namespace masglobal.Services.WebAPIRest.Controllers
         }
 
         [HttpGet("{id}/{TypeContract}")]
-        public ActionResult<string> GetEmployees(string id, string TypeContract)
+        public ActionResult GetEmployees(int id, string TypeContract)
         {
             Response<IEnumerable<EmployeesDTO>> response = new Response<IEnumerable<EmployeesDTO>>();
 
@@ -42,39 +42,14 @@ namespace masglobal.Services.WebAPIRest.Controllers
                 }
                 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                response.Data = null;
+                response.IsSuccess = false;
+                response.Message = ex.Message;
 
-                throw;
+                return BadRequest(response);
             }
-
-            return id + ' ' + TypeContract;
         }
-
-        //[HttpGet]
-        //public IActionResult GetEmployees(string Id)
-        //{
-        //    Response<IEnumerable<EmployeesDTO>> response = new Response<IEnumerable<EmployeesDTO>>();
-        //    try
-        //    {
-        //        response = _application.GetEmployees(Id);
-        //        if (response.IsSuccess)
-        //        {
-        //            return Ok(response);
-        //        } else {
-        //            return BadRequest(response);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        response.Data = null;
-        //        response.IsSuccess = false;
-        //        response.Message = ex.Message;
-
-        //        return BadRequest(response);
-        //    }
-
-        //}
-
     }
 }

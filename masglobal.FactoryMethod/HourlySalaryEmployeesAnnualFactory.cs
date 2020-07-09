@@ -7,18 +7,20 @@ namespace masglobal.FactoryMethod
 {
     class HourlySalaryEmployeesAnnualFactory : CalculatedAnnualSalaryFactory
     {
-        private string _Id;
+        private int _Id;
+        private string _TypeContract;
         private readonly IEmployeesApplication _application;
 
-        public HourlySalaryEmployeesAnnualFactory(string Id, IEmployeesApplication application)
+        public HourlySalaryEmployeesAnnualFactory(int Id, string TypeContract, IEmployeesApplication application)
         {
             _Id = Id;
+            _TypeContract = TypeContract;
             _application = application;
         }
 
         public override CalculatedAnnualSalary GetCalculatedAnnualSalary()
         {
-            return new HourlySalaryEmployeesAnnual(_Id, _application);
+            return new HourlySalaryEmployeesAnnual(_Id, _TypeContract, _application);
         }
     }
 }

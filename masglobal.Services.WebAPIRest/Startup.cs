@@ -16,6 +16,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json.Serialization;
 
 namespace masglobal.Services.WebAPIRest
 {
@@ -31,22 +32,18 @@ namespace masglobal.Services.WebAPIRest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-
-            //services.AddCors(options =>
-            //{
-            //    options.AddPolicy("AllowSpecificOrigin", builder =>
-            //        builder.AllowAnyHeader()
-            //               .AllowAnyMethod()
-            //               .AllowAnyOrigin()
-            //    );
-            //});
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddCors();
             
-            //services.AddSingleton<IEmployeesApplication, EmployeesApplication>();
-            //services.AddSingleton<IEmployeesDomain, EmployeesDomain>();
-            //services.AddSingleton<IEmployeesRepository, EmployeesRepository>();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                             .AddJsonOptions(opt =>
+                             {
+                                 var resolver = opt.SerializerSettings.ContractResolver;
+                                 if (resolver != null)
+                                 {
+                                     var res = resolver as DefaultContractResolver;
+                                     res.NamingStrategy = null;  // <<!-- this removes the camelcasing
+                                 }
+                             });
 
             services.AddScoped<IEmployeesApplication, EmployeesApplication>();
             services.AddScoped<IEmployeesDomain, EmployeesDomain>();
@@ -67,9 +64,11 @@ namespace masglobal.Services.WebAPIRest
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseMvc();
+            //app.UseCors("AllowSpecificOrigin");
 
-            app.UseCors("AllowSpecificOrigin");
+            //app.UseAuthentication();
 
 
         }

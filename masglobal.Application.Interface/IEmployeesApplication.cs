@@ -7,6 +7,6 @@ namespace masglobal.Application.Interface
 {
     public interface IEmployeesApplication
     {
-        Response<IEnumerable<EmployeesDTO>> GetEmployees(string Id);
+        Response<IEnumerable<EmployeesDTO>> GetEmployees(int Id, string TypeContract);
     }
 }

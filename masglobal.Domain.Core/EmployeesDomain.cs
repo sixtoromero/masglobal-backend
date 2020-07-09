@@ -15,9 +15,9 @@ namespace masglobal.Domain.Core
             _repository = repository;
         }
 
-        public IEnumerable<EmployeesDTO> GetEmployees(string Id)
+        public IEnumerable<EmployeesDTO> GetEmployees(int Id, string TypeContract)
         {
-            return _repository.GetEmployees(Id);
+            return _repository.GetEmployees(Id, TypeContract);
         }
     }
 }
